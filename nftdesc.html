@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width" , initial-scale="1.0">
+    <link rel="stylesheet" href="./CSS/nftdesc.css">
+    <link rel="shortcut icon" href="./Assets/icons/favicon.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/99e5c5077d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <title>NFT</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="./Assets/icons/favicon.svg" alt="Logo Here" class="logo">
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="nav-link" href="index.html#Home">Home</a></li>
+                <li><a class="nav-link" href="index.html#About">About</a></li>
+                <li><a class="nav-link" href="index.html#Showcase">Showcase</a></li>
+                <li><a class="nav-link" href="index.html#Roadmap">Roadmap</a></li>
+                <li><a class="nav-link" href="index.html#FAQ">FAQ</a></li>
+            </ul>
+        </nav>
+        <a href=".//nftdesc.html"><button class="btn">Buy Now!</button></a>
+        <div class="MnavBtn">
+            <img src="./Assets/icons/menu.svg" class="MnavIcon menu" alt="">
+            <img src="./Assets/icons/cross.svg" class="MnavIcon cross" alt="">
+        </div>
+
+    </header>
+
+    <div class="fullPage">
+        <div class="descContainer">
+            <div class="descWrapper">
+                <div class="descBox">
+                    <div class="Images">
+
+                        <div class="mainImage">
+                            <img src="./Assets/graphics/1.svg" alt="" id="mainImage">
+
+                        </div>
+                        <p class="imageText">You can preview other nfts also..</p>
+                        <div class="otherImages">
+                            <img src="./Assets/graphics/1.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/2.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/3.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/4.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/5.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/6.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/7.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/8.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/9.svg" alt="" onclick="ButtonClicked(this)">
+                            <img src="./Assets/graphics/10.svg" alt="" onclick="ButtonClicked(this)">
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="textPart">
+                    <div class="textContent">
+                        <p class="owner" id="nftOwner">Owner : </p>
+                        <p class="name" id="nftName">Frenchie</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-heart"></i>
+                            <span id="favs">3 favorites</span>
+
+                        </div>
+                        <div class="priceBox">
+                            <p class="priceText">Current Price</p>
+                            <div class="priceBox2">
+                                <p class="price" id="priceInEth">0.0013 Eth </p>
+                                <p class="priceText2" id="priceInDollars">($ 9999)</p>
+                            </div>
+                        </div>
+                        <div class="salesEnd">
+                            <p class="salesText">Sales End:</p>
+                            <p class="date" id="lastDate">12th August,2022</p>
+                        </div>
+                        <button class=buyNow> Buy Now</button>
+                        <button class="saveButton" id="saveBtn" onclick="SaveBtn()">Save <i
+                                class="fa-solid fa-bookmark"></i></button>
+                    </div>
+                    <div class="descText">
+                        <p class="description" id="nftDesc">This is one of our unique and best NFT in our collection.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <p>This website is created by <b>"Kanish Kumar"</b> and <b>"Arshdeep Singh"</b>. For more details read <a
+                    href="./Readme.md">Readme.md</a></p>
+            <p>Credits: <a class="colorA" href="https://iconscout.com/icons/chevron-down" target="_blank">& Chevron-down
+                    Icon</a> by <a class="colorA" href="https://iconscout.com/contributors/omarsafaa"
+                    target="_blank">Omar Safaa</a> <a class="colorA" href="https://iconscout.com/icons/cross" target="_blank">Cross
+                    Icon</a> by <a  class="colorA" href="https://iconscout.com/contributors/amit-jakhu">Amit Jakhu</a> on <a
+                    href="https://iconscout.com">IconScout</a></p>
+        </div>
+    </footer>
+    <!-- <script>
+        function ButtonClicked(otherImage){
+            var mainImage=document.getElementById("mainImage");
+            mainImage.src=otherImage.src
+        }
+    </script> -->
+    <script src="./JavaScript Files/nftdesc.js"></script>
+    <script src="./JavaScript Files/Script.js"></script>
+    <script src="./JavaScript Files/responsive.js"></script>
+
+</body>
+
+</html>

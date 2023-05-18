@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="shortcut icon" href="./Assets/icons/favicon.svg" type="image/x-icon">
+    <title>NFT</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./Assets/icons/favicon.svg" alt="Logo Here" class="logo">
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="nav-link" href="#Home">Home</a></li>
+                <li><a class="nav-link" href="#About">About</a></li>
+                <li><a class="nav-link" href="#Showcase">Showcase</a></li>
+                <li><a class="nav-link" href="#Roadmap">Roadmap</a></li>
+                <li><a class="nav-link" href="#FAQ">FAQ</a></li>
+            </ul>
+        </nav>
+        <a href="./nftdesc.html"><button class="btn">Buy Now!</button></a>
+        <div class="MnavBtn">
+            <img src="./Assets/icons/menu.svg" class="MnavIcon menu" alt="">
+            <img src="./Assets/icons/cross.svg" class="MnavIcon cross" alt="">
+        </div>
+
+    </header>
+    <div class="front" id="Home">
+        <section class="fleft">
+            <h1>Discover A New Era Of Cool</h1>
+            <span class="type"></span><span class="cursor">&nbsp;</span>
+            <br><br>
+            <p>Bored Of Apes? Try Something New.</p>
+            <button class="btn">Explore!</button>
+        </section>
+        <section class="fright">
+            <video src="./Assets/Video/animation.mp4" type="video/mp4" autoplay loop muted></video>
+        </section>
+    </div>
+    <div class="about" id="About">
+        <div class="Aleft">
+            <div class="swiper-slide">
+                <img src="./Assets/graphics/1.svg" alt="">
+            </div>
+        </div>
+        <div class="Aright">
+            <h2>Welcome To The NFTian Club.</h2>
+            <p>The NFTian CLUB is a private collection of NFTs & unique digital collectibles. The NFTian are stored as
+                secured token on the blockchain servers.</p>
+            <p class="grey">With more than 200+ hand drawn traits, each NFT is unique and comes with a membership to an
+                exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits
+                and utilities.</p>
+        </div>
+    </div>
+    <div class="trendSection slide-container" id="Showcase">
+        <div class="headh2">
+            <h2>Trending</h2>
+        </div> -->
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        <span class="slider-span" id="slider-span4"></span>
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
+        <span class="slider-span" id="slider-span7"></span>
+        <span class="slider-span" id="slider-span8"></span>
+        <span class="slider-span" id="slider-span9"></span>
+        <span class="slider-span" id="slider-span10"></span>
+        <div class="image-slider">
+            <div class="nftCard card1 slides-div" id="slide1">
+                <img src="./Assets/graphics/1.svg" class="nft-icon img" id="img1" alt="">
+                <a href="#slider-span1" class="button" id="button-1"></a>
+                <div class="details">
+                <p class="nftName">Name: Frenchie</p>
+                <p class="price">Price: 0.002Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                    <i class="fa-regular fa-rectangle-code"></i>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide2">
+                <img src="./Assets/graphics/2.svg" class="nft-icon img" id="img2" alt="">
+                <a href="#slider-span2" class="button" id="button-2"></a>
+                <div class="details">
+                <p class="nftName">Name: Hughie</p>
+                <p class="price">Price: 0.004Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+            Buy Now
+                   </button></a> 
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide3">
+                <img src="./Assets/graphics/3.svg" class="nft-icon img" id="img3" alt="">
+                <a href="#slider-span3" class="button" id="button-3"></a>
+                <div class="details">
+                <p class="nftName">Name: Gorr</p>
+                <p class="price">Price: 0.008Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide4">
+                <img src="./Assets/graphics/4.svg" class="nft-icon img" id="img4" alt="">
+                <a href="#slider-span4" class="button" id="button-4"></a>
+                <div class="details">
+                <p class="nftName">Name: Weird</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide5">
+                <img src="./Assets/graphics/5.svg" class="nft-icon img" id="img5" alt="">
+                <a href="#slider-span5" class="button" id="button-5"></a>
+                <div class="details">
+                <p class="nftName">Name: Weird</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide6">
+                <img src="./Assets/graphics/6.svg" class="nft-icon img" id="img6" alt="">
+                <a href="#slider-span6" class="button" id="button-6"></a>
+                <div class="details">
+                <p class="nftName">Name: Weird</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide7">
+                <img src="./Assets/graphics/7.svg" class="nft-icon img" id="img7" alt="">
+                <a href="#slider-span7" class="button" id="button-7"></a>
+                <div class="details">
+                <p class="nftName">Name: Weird</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide8">
+                <img src="./Assets/graphics/8.svg" class="nft-icon img" id="img8" alt="">
+                <a href="#slider-span8" class="button" id="button-8"></a>
+                <div class="details">
+                <p class="nftName">Name: Weird</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide9">
+                <img src="./Assets/graphics/9.svg" class="nft-icon img" id="img9" alt="">
+                <a href="#slider-span9" class="button" id="button-9"></a>
+                <div class="details">
+                <p class="nftName">Name: Weird</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                    <button class="buyBtn" onclick="buyButn(this)">
+                        Buy Now
+                    </button></a>
+                </div>
+            </div>
+            <div class="nftCard slides-div" id="slide10">
+                <img src="./Assets/graphics/10.svg" class="nft-icon img" id="img10" alt="">
+                <a href="#slider-span10" class="button" id="button-10"></a>
+                <div class="details">
+                <p class="nftName">Name: weriid</p>
+                <p class="price">Price: 0.005Eth</p>
+                </div>
+                <div class="buyButton">
+                    <a id="buyBtn" href="./nftdesc.html" >
+                     <button class="buyBtn" onclick="buyButn(this)">Buy Now</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="roadmap" id="Roadmap">
+        <h2>RoadMap</h2>
+        <div class="container"></div>
+        <div class="box b1"><span class="text">06</span><br>
+            <h2 class="subtext">Bridge Between</h2>
+            <p>There is a lot of talk about the "bridge" between the physical world and the world of NFTs. This bridge
+                is often thought of as a way to bring the benefits of blockchain technology to the physical world. In
+                the simplest terms, the bridge between the physical world and NFTs allows for the tracking and exchange
+                of physical assets on a blockchain. This can be anything from a piece of art to a car to a piece of
+                land.</p>
+        </div>
+        <div class="box b2">
+            <span class="text">01</span>
+            <br>
+            <h2 class="subtext">Vision & Value</h2>
+            <p>NFT's provide a new way to think about value and ownership. They offer a way to create unique digital
+                assets that can be owned and traded by anyone, anywhere. This new way of thinking about value opens up a
+                world of possibilities for artists, creators, and collectors.
+            </p>
+        </div>
+        <div class="box b1">
+            <span class="text">05
+            </span>
+            <br>
+            <h2 class="subtext">
+                Physical World </h2>
+            <p>In the physical world, we are constantly bombarded with stimuli. Our eyes take in visuals, our ears take
+                in sounds, and our skin feels textures. Our brains are constantly processing this information, and it
+                can be overwhelming. That's where NFT comes in.
+
+                NFT is a way of filtering the physical world. It allows us to focus on one thing at a time and tune out
+                the rest.</p>
+        </div>
+        <div class="box b2">
+            <span class="text">02
+            </span>
+            <br>
+            <h2 class="subtext">
+                Create </h2>
+            <p>NFT's provide a way to create, own, and trade digital assets that are unique and have value. This new way
+                of thinking about value and ownership opens up a world of possibilities for artists, creators, and
+                collectors.</p>
+        </div>
+        <div class="box b1">
+            <span class="text">08
+            </span>
+            <br>
+            <h2 class="subtext">
+                And it's Done! </h2>
+            <img src="./Assets/graphics/3.svg" alt="">
+        </div>
+        <div class="box b2">
+            <span class="text">03
+            </span>
+            <br>
+            <h2 class="subtext">
+                Community
+            </h2>
+            <p>The non-fungible token community is a group of people who are passionate about the new technology of
+                NFTs. This community is made up of developers, investors, and enthusiasts who are working to build the
+                infrastructure and applications that will enable the mainstream adoption of NFTs.</p>
+        </div>
+        <div class="box b1">
+            <span class="text">07
+            </span>
+            <br>
+            <h2 class="subtext">
+                Holding NFT </h2>
+            <p>If you’re like most people, you probably think of crypto as digital money. But there’s a lot more to the
+                world of cryptocurrency than just Bitcoin and altcoins. In fact, there’s a whole new world of digital
+                assets known as non-fungible tokens, or NFTs.
+
+                NFTs are digital assets that are unique and non-interchangeable. Unlike Bitcoin, which is fungible
+                (meaning each Bitcoin is worth the same).</p>
+        </div>
+        <div class="box b2">
+            <span class="text">04
+            </span>
+            <br>
+            <h2 class="subtext">
+                Metaverse </h2>
+            <p>A metaverse is a user-created virtual world that exists on a blockchain. Metaverses are decentralized and
+                often open-source, meaning anyone can create their own world or add to an existing one. NFT's will play
+                a vital role in its expansion. </p>
+        </div>
+    </div>
+   
+  
+    <div class="faq" id="FAQ">
+        <h2>FAQ</h2>
+        <div class="faqContainer">
+            <div class="ques">
+                <div class="ques-item" id="ques1">
+                    <a href="#ques1" class="ques-link">
+                        What is NFT?
+                        <img src="./Assets/icons/down.svg" class="icon add" alt="">
+                        <img src="./Assets/icons/cross.svg" class="icon remove" alt="">
+                    </a>
+                    <div class="answer">
+                        <p>An NFT is a non-fungible token, which means it cannot be exchanged for another token of the
+                            same type. NFTs are often used to represent items such as digital art, collectibles, and
+                            in-game items.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ques">
+                <div class="ques-item" id="ques2">
+                    <a href="#ques2" class="ques-link">
+                        What is MetaVerse?
+                        <img src="./Assets/icons/down.svg" class="icon add" alt="">
+                        <img src="./Assets/icons/cross.svg" class="icon remove" alt="">
+                    </a>
+                    <div class="answer">
+                        <p>A metaverse is a network of 3D virtual worlds focused on social connection. In futurism and
+                            science fiction, it is often described as a hypothetical iteration of the Internet as a
+                            single, universal virtual world that is facilitated by the use of virtual and augmented
+                            reality headsets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ques">
+                <div class="ques-item" id="ques3">
+                    <a href="#ques3" class="ques-link">
+                        WHY DO WE NEED ROYALTIES?
+                        <img src="./Assets/icons/down.svg" class="icon add" alt="">
+                        <img src="./Assets/icons/cross.svg" class="icon remove" alt="">
+                    </a>
+                    <div class="answer">
+                        <p>The amount of royalties was fixed at 5% to finance the Weirdos Club's projects. We have the
+                            ambition to organize multiple events around the world in order to strengthen the community
+                            and build a network of entrepreneurs and investors with the same mindset and common
+                            interests.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ques">
+                <div class="ques-item" id="ques4">
+                    <a href="#ques4" class="ques-link">
+                        HOW CAN I USE MY NFT? <img src="./Assets/icons/down.svg" class="icon add" alt="">
+                        <img src="./Assets/icons/cross.svg" class="icon remove" alt="">
+                    </a>
+                    <div class="answer">
+                        <p>You will be able to use your NFT as an avatar in the Metaverse and our future video game.
+                            Holding also means that you are part of an exclusive network of investors and entrepreneurs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ques">
+                <div class="ques-item" id="ques5">
+                    <a href="#ques5" class="ques-link">
+                        WHERE CAN I VIEW MY NFTS?
+                        <img src="./Assets/icons/down.svg" class="icon add" alt="">
+                        <img src="./Assets/icons/cross.svg" class="icon remove" alt="">
+                    </a>
+                    <div class="answer">
+                        <p> Once minted or bought simply connect to your OpenSea account to view your NFTs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <p>This website is created by <b>"Kanish Kumar"</b> and <b>"Arshdeep Singh"</b>. For more details read <a
+                    href="./Readme.md">Readme.md</a></p>
+            <p>Credits: <a href="https://iconscout.com/icons/chevron-down" target="_blank">& Chevron-down Icon</a> by <a
+                    href="https://iconscout.com/contributors/omarsafaa" target="_blank">Omar Safaa</a> <a
+                    href="https://iconscout.com/icons/cross" target="_blank">Cross Icon</a> by <a
+                    href="https://iconscout.com/contributors/amit-jakhu">Amit Jakhu</a> on <a
+                    href="https://iconscout.com">IconScout</a></p>
+        </div>
+    </footer>
+    <script src="./JavaScript Files/Script.js"></script>
+    <script src="./JavaScript Files/responsive.js"></script>
+    <script src="./JavaScript Files/nftdesc.js"></script>
+    
+</body>
+
+</html>
